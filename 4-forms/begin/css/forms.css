@@ -1,89 +1,95 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 body {
-	font-family: Arial, Helvetica, sans-serif;
-	margin: 0;
-	padding: 0;
-	background-color: #1e2124; 
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e2124;
 }
 .wrapper {
-	width: 95%;
-	margin: 0 auto;
-	padding: 1em;
-	display: flex;
-	flex-flow: row;
+  width: 95%;
+  margin: 0 auto;
+  padding: 1em;
+  display: flex;
+  flex-flow: row;
 }
 p {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	font-size: 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
 }
 fieldset {
-	background-color: #282b30;
-	border: none;
-	padding: 2rem 1.5rem 2rem 1.5rem;
+  background-color: #282b30;
+  border: none;
+  padding: 2rem 1.5rem 2rem 1.5rem;
 }
 
 .container {
-	display: grid;
-	margin-bottom: 1.5rem;
+  display: grid;
+  margin-bottom: 1.5rem;
 }
 
 section {
-	flex-basis: 57%;
-	margin-right: 10%;
+  flex-basis: 57%;
+  margin-right: 10%;
 }
 section h1 {
-	color: #7289da;
-	text-transform: uppercase;
+  color: #7289da;
+  text-transform: uppercase;
 }
 aside {
-	flex-basis: 33%;
+  flex-basis: 33%;
 }
 
-legend, label, input, p {
-	color: white;
+legend,
+label,
+input,
+p {
+  color: #fff;
 }
 
 legend {
-	background-color:#7289da;
-	border-radius: 3px;
-	padding: .7rem;
-	font-weight: bold;
-	font-size: 1rem;
-	text-transform: uppercase;
+  background-color: #7289da;
+  border-radius: 3px;
+  padding: 0.7rem;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 
 label {
-	color: #fff;
-	font-size: 1.1rem;
-	margin-bottom: .5rem;
+  color: #fff;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
 }
 
-input {
-	background-color: #424549;
-	border-radius: 3px;
-	border: none;
-	margin-bottom: 1.25rem;
-	padding: .75rem;
+input,
+select {
+  background-color: #424549;
+  border-radius: 3px;
+  border: none;
+  margin-bottom: 1.25rem;
+  padding: 0.75rem;
 }
 
+select {
+  font-size: 1rem;
+  color: #fff;
+}
+/* Found this css and I love it. */
+option:not(:checked) {
+  background-color: #282b30;
+}
+select option:checked {
+  background-color: #424549;
+}
 
 .sumbit {
-	background-color:#7289da;
-	
+  background-color: #7289da;
 }
-
-
-
-
-
-
-
-
-
-
