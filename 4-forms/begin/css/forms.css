@@ -8,26 +8,57 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0;
+	background-color: #1e2124; 
 }
 .wrapper {
-	width: 80%;
+	width: 95%;
 	margin: 0 auto;
 	padding: 1em;
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: row;
 }
 p {
-	margin-bottom: 0;
-	margin-top: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-size: 1.25rem;
 }
+fieldset {
+	background-color: #282b30;
+	border: none;
+}
+
+.container {
+	display: grid;
+}
+
 section {
 	flex-basis: 57%;
 	margin-right: 10%;
+}
+section h1 {
+	color: #7289da;
 }
 aside {
 	flex-basis: 33%;
 }
 
+legend, label, input, p {
+	color: white;
+}
+
+legend {
+	background-color:#7289da;
+	border-radius: 3px;
+	padding: .7rem;
+	font-weight: bold;
+	font-size: 1.25rem;
+	/* text-transform: uppercase; */
+}
+
+input {
+	background-color: #424549;
+	border: none;
+}
 
 
 
