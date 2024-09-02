@@ -6,12 +6,6 @@ html {
 *:after {
   box-sizing: inherit;
 }
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #1e2124;
-}
 .wrapper {
   width: 95%;
   margin: 0 auto;
@@ -19,20 +13,29 @@ body {
   display: flex;
   flex-flow: row;
 }
+.container {
+  display: grid;
+  margin-bottom: 1.5rem;
+}
+.sumbit {
+  background-color: #7289da;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e2124;
+}
+
 p {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size: 1.25rem;
 }
 fieldset {
   background-color: #282b30;
   border: none;
   padding: 2rem 1.5rem 2rem 1.5rem;
-}
-
-.container {
-  display: grid;
-  margin-bottom: 1.5rem;
 }
 
 section {
@@ -50,8 +53,10 @@ aside {
 legend,
 label,
 input,
-p {
+p,
+select {
   color: #fff;
+  font-size: 1.15rem;
 }
 
 legend {
@@ -59,18 +64,17 @@ legend {
   border-radius: 3px;
   padding: 0.7rem;
   font-weight: bold;
-  font-size: 1rem;
   text-transform: uppercase;
 }
 
 label {
   color: #fff;
-  font-size: 1.1rem;
   margin-bottom: 0.5rem;
 }
 
 input,
-select {
+select,
+textarea {
   background-color: #424549;
   border-radius: 3px;
   border: none;
@@ -78,18 +82,16 @@ select {
   padding: 0.75rem;
 }
 
-select {
+/* select {
   font-size: 1rem;
   color: #fff;
-}
+} */
+
 /* Found this css and I love it. */
 option:not(:checked) {
   background-color: #282b30;
 }
-select option:checked {
+select option:checked,
+textarea {
   background-color: #424549;
-}
-
-.sumbit {
-  background-color: #7289da;
 }
