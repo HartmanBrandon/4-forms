@@ -25,10 +25,12 @@ p {
 fieldset {
 	background-color: #282b30;
 	border: none;
+	padding: 2rem 1.5rem 2rem 1.5rem;
 }
 
 .container {
 	display: grid;
+	margin-bottom: 1.5rem;
 }
 
 section {
@@ -37,6 +39,7 @@ section {
 }
 section h1 {
 	color: #7289da;
+	text-transform: uppercase;
 }
 aside {
 	flex-basis: 33%;
@@ -51,15 +54,29 @@ legend {
 	border-radius: 3px;
 	padding: .7rem;
 	font-weight: bold;
-	font-size: 1.25rem;
-	/* text-transform: uppercase; */
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+label {
+	color: #fff;
+	font-size: 1.1rem;
+	margin-bottom: .5rem;
 }
 
 input {
 	background-color: #424549;
+	border-radius: 3px;
 	border: none;
+	margin-bottom: 1.25rem;
+	padding: .75rem;
 }
 
+
+.sumbit {
+	background-color:#7289da;
+	
+}
 
 
 
