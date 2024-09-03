@@ -17,12 +17,13 @@
           action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES"
           method="POST"
         >
+        <!-- This input wont take a placeholder-->
           <input type="hidden" name="send_to" value="test@test.com" />
           <!-- <div class="container"> -->
           <fieldset class="container">
             <legend>Your Contact Information</legend>
             <label for="name">Your name</label>
-            <input type="text" id="name" name="name" />
+            <input type="text" id="name" name="name" placeholder="Eric Jones" />
             <label for="phone">Phone number</label>
             <input
               type="tel"
@@ -31,7 +32,7 @@
               placeholder="(000) 000-0000"
             />
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" />
+            <input type="email" id="email" name="email" placeholder="test@email.com" />
           </fieldset>
           <!-- </div> -->
           <fieldset class="container">
