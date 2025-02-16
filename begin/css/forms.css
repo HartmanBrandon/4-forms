@@ -37,10 +37,11 @@ button {
 }
 
 fieldset {
-	background-color: #36393e;
+	background-color: #282b30;
 	margin: 1rem 0;
-	padding: 1rem;
+	padding: 1.5rem;
 	border: none;
+	border-radius: 5px;
 }
 
 legend {
@@ -62,7 +63,25 @@ label {
 	margin: .5rem 0;
 }
 
+.fullwidth {
+	width: 100%;
+}
 
+input, select {
+	padding: .5rem;
+	background-color: #36393e;
+	border: none;
+	border-radius: 3px;
+	margin-bottom: 20px;
+}
+
+select {
+	color: lightgray;
+}
+
+option {
+	margin: 0;
+}
 
 
 
