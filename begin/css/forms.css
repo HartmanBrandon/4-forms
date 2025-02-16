@@ -49,6 +49,18 @@ legend {
 	text-transform: uppercase;
 }
 
+label {
+	display: flex;
+}
+
+div {
+	margin: 1rem 0;
+}
+
+label {
+	font-size: 1rem;;
+	margin: .5rem 0;
+}
 
 
 
