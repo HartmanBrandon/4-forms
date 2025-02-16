@@ -13,7 +13,8 @@
 			<h1>Alien Abduction Order Form</h1>
 			<p>Fill out the form below to place an order for an alien abduction by one of our fine UFOs.</p>
 			<form method="POST" action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES">
-				<fieldset>
+				<input type="hidden" name="send_to" value="test@email.com" />
+        <fieldset>
 					<legend>Your contact information</legend>
 					<label for="name">Your name </label>
 					<input type="text" id="name" name="name" autofocus>
