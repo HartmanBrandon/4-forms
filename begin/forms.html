@@ -14,18 +14,28 @@
           one of our fine UFOs.
         </p>
         <form>
-          <h2>Your contact information</h2>
-          <label>Your name</label>
-			<input type="text" id="name" name="name">
-          <p>Phone number</p>
-          <p>Email</p>
+          <fieldset>
+            <legend>Your contact information</legend>
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" />
 
-          <h2>About your abduction</h2>
-          <p>Requested date</p>
-          <p>How many people would you like abducted?</p>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" />
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" />
+          </fieldset>
+		  <fieldset>
+          <legend>About your abduction</legend>
+          <label for="date">Requested date</legend>
+			<input type="date" id="date" name="date"/>
+
+          <label for="qty">How many people would you like abducted?</label>
+		  <input type="number" id="qty" name="qty" min="1" max="10" />
+
           <p>What type of UFO do you prefer?</p>
           <ul>
-            <li>Classic oval UFO</li>
+            <input type="radio" name="ufotype" value="classic">Classic oval UFO />
             <li>Star Wars-style Imperial cruiser</li>
             <li>Battlestar Galactica-style Viper</li>
             <li>Borg-style cube</li>
@@ -37,6 +47,7 @@
             <li>Alien dance lessons</li>
             <li>Whale watching</li>
           </ul>
+		  </fieldset>
           <p>Special requests:</p>
           <p>Add me to your email list</p>
         </form>
