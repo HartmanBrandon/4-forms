@@ -8,6 +8,8 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0;
+background-color: #1e2124;
+	color: white;
 }
 .wrapper {
 	width: 80%;
@@ -19,6 +21,7 @@ body {
 p {
 	margin-bottom: 0;
 	margin-top: 2rem;
+	
 }
 section {
 	flex-basis: 57%;
@@ -27,6 +30,26 @@ section {
 aside {
 	flex-basis: 33%;
 }
+
+button {
+	color: white;
+	background-color: #7289da;
+}
+
+fieldset {
+	background-color: #36393e;
+	margin: 1rem 0;
+	padding: 1rem;
+	border: none;
+}
+
+legend {
+	font-size: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
 
 
 
